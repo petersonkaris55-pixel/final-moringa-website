@@ -6,6 +6,40 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+header{
+    background-color: burlywood;
+    color: coral;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:24px 0;
+    text-align: center;
+}
+header a{
+text-decoration: none;
+color: inherit;
+}
+header h1{
+    font-size: 40px;
+    margin: 0;
+}
+nav{
+     background-color: #343a40; 
+    text-align: center;
+    padding:12px 0 ;
+     
+
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+nav a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
 .home-container, .booking-container{
     max-width: 600px;
     width: 100%;
