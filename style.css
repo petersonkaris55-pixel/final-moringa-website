@@ -7,7 +7,7 @@ body {
   background-position: center;
 }
 header{
-    background-color: burlywood;
+    background-color: #330a05;
     color: coral;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding:24px 0;
@@ -22,7 +22,7 @@ header h1{
     margin: 0;
 }
 nav{
-     background-color: #343a40; 
+     background-color: #c45306; 
     text-align: center;
     padding:12px 0 ;
      
@@ -86,8 +86,8 @@ nav a:hover{
     opacity: 0.8;
 }
 .about{
-    backdrop-filter: blur(10px);
-    color: aqua;
+    background-color: #9a6449;
+    color: #322525;
 
 }
 
