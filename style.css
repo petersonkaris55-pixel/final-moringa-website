@@ -60,11 +60,9 @@ nav a:hover{
 .hero-card,.info-card,.hero-content{
     border-radius: 30px;
     padding: 40px;
-    
-  
 }
-.infogrid{
-    display: grid;
+.info-grid{
+    display: flex;
     gap: 20px;
 }
 .info-card{
@@ -87,10 +85,15 @@ nav a:hover{
     line-height: 1.6;
     opacity: 0.8;
 }
+.about{
+    backdrop-filter: blur(10px);
+    color: aqua;
+
+}
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #333;
+  background-color: black;
   color: white;
 }
