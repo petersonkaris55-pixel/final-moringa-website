@@ -81,16 +81,17 @@ nav a:hover{
     margin-bottom: 15px;
 
 }
-.p{
-    line-height: 1.6;
-    opacity: 0.8;
-}
+ 
 .about{
     background-color: #9a6449;
     color: #322525;
+    font-weight: 900;
+    font-size: large;
 
 }
-
+.rsv-button, input, select{
+    
+}
 footer {
   text-align: center;
   padding: 20px;
