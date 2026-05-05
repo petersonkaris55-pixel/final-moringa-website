@@ -12,6 +12,35 @@
          <section class="hero-card">
             <div class="logo">IVORY ESTATE</div>
             <h1>secure your table</h1>
+            <p>Join us for an uforgettable evening. Please provide your details below</p>
+
+            < class="booking form">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" requred>
+                </div>
+
+                <div class="form-row">
+                <input type="date" required>
+                <input type="time" min="17:00" max="23:00" required>
+            </div>
+
+            <div class="form-row">
+                <select required>
+                    <option value="" disabled selected>Guests</option>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 Person</option>
+                    <option value="4">4 Person</option>
+                    <option value="6+">6+ Person</option>
+                </select>
+                <select required>
+                    <option value="" disabled selected>Seating Prefrence</option>
+                    <option value="terrace">Sun-dreanched Terrace</option>
+                    <option value="indoor">Intimate Indoor Booth</option>
+                    <option value="bar">Chef's Bar</option>
+                </select>
+            </div>
+            <button typpe="submit" class="cta-button">confrim Reservation</button>
+            </form>
          </section>
     </main>
 
