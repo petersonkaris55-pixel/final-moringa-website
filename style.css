@@ -1,5 +1,5 @@
 body {
-  background-image: url('ivory\ estate.jfif');
+  background-image: url("ivory\ estate.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -7,86 +7,83 @@ body {
   margin: 0;
 }
 
-header{
-    background-color: #330a05;
-    color: coral;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding:24px 0;
-    text-align: center;
+header {
+  background-color: #330a05;
+  color: coral;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+  text-align: center;
 }
-header a{
-text-decoration: none;
-color: inherit;
+header a {
+  text-decoration: none;
+  color: inherit;
 }
-header h1{
-    font-size: 40px;
-    margin: 0;
+header h1 {
+  font-size: 40px;
+  margin: 0;
 }
 
-nav{
-     background-color: #c45306; 
-    text-align: center;
-    padding:12px 0 ;
-     
+nav {
+  background-color: #c45306;
+  text-align: center;
+  padding: 12px 0;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+nav a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.home-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 60px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.hero-card,
+.info-card {
+  border-radius: 30px;
+  padding: 20px;
+}
+.info-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.logo {
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: burlywood;
+}
+.h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
 
-}
-nav a{
-    text-decoration: none;
-    color: inherit;
-    margin: 0 20px;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-}
-nav a:hover{
-    color: aqua;
-    text-decoration: underline;
-}
-.home-container{
-    max-width: 600px;
-    width: 90%;
-    margin: 60px auto;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.hero-card, .info-card{
-    border-radius: 30px;
-    padding: 20px;
-}
-.info-grid{
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
-.logo{
-    font-weight: 800;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-    color: burlywood;
-}
-.h1{
-    font-size: 2rem;
-    margin-bottom: 15px;
-
-}
- 
-.about{
-    background-color: #9a6449;
-    color: #322525;
-    font-weight: 900;
-    font-size: large;
-    padding: 20px;
-    text-align: center;
-    margin: 0;
-
+.about {
+  background-color: #9a6449;
+  color: #322525;
+  font-weight: 900;
+  font-size: large;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
 }
 footer {
   text-align: center;
@@ -94,14 +91,13 @@ footer {
   background-color: black;
   color: white;
 }
-.rsv-button{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #c45306;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
+.rsv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c45306;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 /* reservation.html */
-
