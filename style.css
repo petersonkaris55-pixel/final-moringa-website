@@ -1,5 +1,4 @@
 body {
- 
   background-image: url('ivory\ estate.jfif');
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,12 +88,17 @@ nav a:hover{
     font-size: large;
 
 }
-.rsv-button{
-
-}
 footer {
   text-align: center;
   padding: 20px;
   background-color: black;
   color: white;
+}
+/* reservation.html */
+.reserve{
+     background-image: url('reservation\ part.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
