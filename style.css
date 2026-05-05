@@ -42,21 +42,26 @@ nav a:hover{
 }
 .home-container, .booking-container{
     max-width: 600px;
-    width: 100%;
+    width: 100;
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
 }
 .home-container{
-    display: flex;
+  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
      
-    
+
 }
 .hero-card,.info-card,.hero-content{
     border-radius: 30px;
@@ -99,10 +104,4 @@ footer {
   color: white;
 }
 /* reservation.html */
- /* .reserve{
-     background-image: url('reservation\ part.jfif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-} */
+
