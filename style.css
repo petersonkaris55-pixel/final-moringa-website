@@ -20,6 +20,7 @@ header h1{
     font-size: 40px;
     margin: 0;
 }
+
 nav{
      background-color: #c45306; 
     text-align: center;
@@ -54,12 +55,15 @@ nav a:hover{
     align-items: center;
     min-height: 100vh;
     margin: 0;
+     
     
 }
 .hero-card,.info-card,.hero-content{
     border-radius: 30px;
     padding: 40px;
+   
 }
+
 .info-grid{
     display: flex;
     gap: 20px;
@@ -95,7 +99,7 @@ footer {
   color: white;
 }
 /* reservation.html */
-.reserve{
+ .reserve{
      background-image: url('reservation\ part.jfif');
   background-repeat: no-repeat;
   background-size: cover;
