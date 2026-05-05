@@ -59,7 +59,7 @@ nav a:hover{
 }
 .hero-card, .info-card{
     border-radius: 30px;
-    padding: 40px;
+    padding: 20px;
 }
 .info-grid{
     display: flex;
