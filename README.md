@@ -11,4 +11,12 @@
 1.clone this repository to your local machine
 2.Ensure all project files(index.html,reserve.html,and the css folder)are in the same directory (create in ubuntu)
 3.Open index.html in your preferred web browser to view the landing page.
-4.Navigate to the "Reservations" page to access the booking system.
+4.create the boiler plate of all 3 files while styling (to your preferred theme making all necessary corrections[debuging])
+5.create a script.js having done the following;
+a.DOM Manipulation
+b.Event Handling
+c.Form validation
+d.use localStorage
+
+6.Navigate to the "Reservations" page to access the booking system.
+7.Test for errors and debug.
