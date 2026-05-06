@@ -1,7 +1,12 @@
 *{
   outline: 1px solid red !important;
 }
-
+html , body{
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -257,4 +262,7 @@ section{
 }
 main{
   flex: 1;
+}
+img{
+  max-width: ;
 }
