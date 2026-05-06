@@ -197,3 +197,22 @@ body{
 }
 
 /* confirmation message */
+body {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+.reservation-page {
+  background-image: url('');
+}
+.confirmation-details p{
+  font-weight: 0.95rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 8px;
+}
+.confirmation-details strong{
+  color: burlywood;
+}
