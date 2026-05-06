@@ -1,10 +1,13 @@
 body {
-  background-image: url("ivory\ estate.jfif");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+}
+.home-page{
+  background-image: url("ivory\ estate.jfif");
 }
 
 header {
@@ -100,14 +103,18 @@ footer {
   border-radius: 5px;
   margin-top: 15px;
 }
-/* reservation.html */
+
+/* 2.Reservation.html */
 body{
-  background-image: url('Reservation\ card.jfif');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+}
+.reserve-page{
+  background-image: url('Reservation\ card.jfif');
 }
 .home-container{
     max-width: 600px;
@@ -168,4 +175,7 @@ body{
 .booking-form select option{
   background-color: #330a05;
 }
-.back-link
+.back-link:hover{
+  color: aqua;
+  text-decoration: underline;
+}
