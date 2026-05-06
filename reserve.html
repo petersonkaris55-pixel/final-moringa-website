@@ -16,28 +16,28 @@
             <div class="logo">Ivory Estate</div>
             <p>Join us for an unforgettable evening. please provide your details below.</p>
          
-           <form class="booking-form">
+           <form class="booking-form" id="resForm">
             <div class="form-group">
-                <input type="text" placeholder="Full name" required>
+                <input type="text" id="fullName" placeholder="Full name" required>
             </div>
             <div class="form-row">
-                <input type="date" required>
-                <input type="time" min="17:00" max="23:00" required>
+                <input type="date"  id="resDate" required>
+                <input type="time" id="resTime" min="17:00" max="23:00" required>
             </div>
             
             <div class="form-row">
-                <select required>
+                <select id="guests" required>
                     <option value="" disabled selected>Guests</option>
                     <option value="1">1 Person</option>
                     <option value="2">2 People</option>
                     <option value="3">4 People</option>
                     <option value="6+">6+ People</option>
                 </select>
-                <select required>
+                <select id="seating" required>
                     <option value="" disabled selected>Seating prefrence</option>
                     <option value="Terrace">sun-drenched Terrace</option>
                     <option value="Indoor">Intimate Indoor</option>
-                    <option value="Bar">Chef's </option>
+                    <option value="Bar">Chef's Table</option>
                 </select>
             </div>
            </form>
