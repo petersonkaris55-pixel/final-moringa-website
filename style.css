@@ -44,6 +44,12 @@ nav a:hover {
   color: aqua;
   text-decoration: underline;
 }
+.gallery-img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  
+}
 .home-container {
   max-width: 600px;
   width: 90%;
