@@ -183,5 +183,17 @@ body{
   color: aqua;
   text-decoration: underline;
 }
+.confirm{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: #c45306;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.confirm:hover{
+    background-color: #330a05;
+}
 
 /* confirmation message */
