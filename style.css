@@ -48,7 +48,11 @@ nav a:hover {
   width: 100%;
   max-width: 800px;
   height: auto;
-  
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0, 0.2);
+  display: block;
+  margin: 20px auto;
+
 }
 .home-container {
   max-width: 600px;
