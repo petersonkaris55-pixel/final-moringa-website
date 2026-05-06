@@ -104,6 +104,9 @@ footer {
   border-radius: 5px;
   margin-top: 15px;
 }
+.rsv-button:hover{
+  background-color: #330a05;
+}
 
 /* 2.Reservation.html */
 body{
@@ -115,7 +118,7 @@ body{
   margin: 0;
 }
 .reserve-page{
-  background-image: url('Reservation\ card.jfif');
+  background-image: url('Personalized\ Reserved\ Table\ Sign\ Wooden\ Resta.jfif');
 }
 .home-container{
     max-width: 600px;
@@ -180,3 +183,5 @@ body{
   color: aqua;
   text-decoration: underline;
 }
+
+/* confirmation message */
