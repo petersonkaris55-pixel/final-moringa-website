@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded',function (){
                 resTime:document.getElementById('resTime').value,
                 partySize:document.getElementById('guests').value,
                 location:document.getElementById('seating').value,
-                createdAt:document.getElementById('')
+                createdAt: new
             }
         })
     }
