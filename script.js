@@ -3,8 +3,13 @@ document.addEventListener('DOMContentLoaded',function (){
     //1.select the elements
     const bookingForm = document.querySelector('#resForm');
     const summaryContainer = document.querySelector('#confirmDetails');
+    const dateInput=document.querySelector('input[type="date"]')
 
     //2.reservation page logic
+    if(dateInput){
+        const today=new Date().toISOString().split('T')[0]
+        dateInput.setAttribute('min',today)
+    }
     if(bookingForm) {
         bookingForm.addEventListener('submit',function (event){
             event.preventDefault();
