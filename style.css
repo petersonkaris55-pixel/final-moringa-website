@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 .home-page{
-  background-image: url("ivory\ estate.jfif");
+  background-image: url("THE\ IVORY\ ESTATE.jpeg");
 }
 
 header {
@@ -225,4 +225,8 @@ body {
           padding: 40px;
           border-radius: 15px;
           color: white;
+}
+section{
+  padding-left: 20px;
+  padding-right: 20px;
 }
