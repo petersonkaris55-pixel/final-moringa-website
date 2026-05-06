@@ -20,3 +20,10 @@ d.use localStorage
 
 6.Navigate to the "Reservations" page to access the booking system.
 7.Test for errors and debug.
+# Key Features
+1.glassmorphism
+2.reservation/confirmation page
+3.Empty reservation field cannot be submitted
+4confirmatin message
+# Technologies Used  
+. HTML:for semantic page structure
