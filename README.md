@@ -9,7 +9,6 @@
   
 # Setup Instructions 
 1.clone this repository to your local machine
-
 2.Ensure all project files(index.html,reserve.html,and the css folder)are in the same directory (create in ubuntu)
 3.Open index.html in your preferred web browser to view the landing page.
 4.Navigate to the "Reservations" page to access the booking system.
