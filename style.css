@@ -196,7 +196,7 @@ body{
     background-color: #330a05;
 }
 
-/* confirmation message */
+/* confirmation.html */
 body {
 
   background-repeat: no-repeat;
@@ -205,14 +205,6 @@ body {
   background-position: center;
   margin: 0;
 }
-.reservation-page {
-  background-image: url('ambient\ aesthetic\ cool\ hotel\ pictuer');
-}
-.confirmation-details p{
-  font-weight: 0.95rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 8px;
-}
-.confirmation-details strong{
-  color: burlywood;
+.confirmation-page{
+  background-image: url('');
 }
