@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',function (){
                 createdAt: new Date().toLocaleString()
             };
             //ensure dropdowns were selected
-            if(!guestData.partysize || !guestData.location){
+            if(!guestData.partysize && !guestData.location){
                 alert("Please select your guest count and seating prefrence.")
                 return;
             }
