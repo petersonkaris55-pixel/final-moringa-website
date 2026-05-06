@@ -1,6 +1,7 @@
 *{
   outline: 1px solid red !important;
 }
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,8 +20,13 @@ header {
   background-color: #330a05;
   color: coral;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
+  padding: 24px ;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 header a {
   text-decoration: none;
@@ -106,9 +112,16 @@ nav a:hover {
 }
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   background-color: black;
   color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+
 }
 .rsv-button {
   display: inline-block;
@@ -244,10 +257,4 @@ section{
 }
 main{
   flex: 1;
-}
-footer{
-    text-align: center;
-      padding: 20px;
-      background-color: black;
-      color: white;
 }
