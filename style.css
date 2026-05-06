@@ -1,6 +1,4 @@
-*{
-  outline: 1px solid red !important;
-}
+/* added for different screen fitting */
 html , body{
   width: 100%;
   overflow-x: hidden;
@@ -27,11 +25,6 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 24px ;
   text-align: center;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 header a {
   text-decoration: none;
@@ -264,5 +257,6 @@ main{
   flex: 1;
 }
 img{
-  max-width: ;
+  max-width: 100%;
+  height: auto;
 }
