@@ -1,10 +1,15 @@
+*{
+  outline: 1px solid red !important;
+}
 body {
-
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .home-page{
   background-image: url("THE\ IVORY\ ESTATE.jpeg");
@@ -126,6 +131,9 @@ body{
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .reserve-page{
   background-image: url('Personalized\ Reserved\ Table\ Sign\ Wooden\ Resta.jfif');
@@ -214,6 +222,9 @@ body {
   background-attachment: fixed;
   background-position: center;
   margin: 0;
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .confirmation-page{
   background-image: url('ambient\ aesthetic\ cool\ hotel\ pictuer');
@@ -226,7 +237,17 @@ body {
           border-radius: 15px;
           color: white;
 }
+/* responsive design addition */
 section{
   padding-left: 20px;
   padding-right: 20px;
+}
+main{
+  flex: 1;
+}
+footer{
+    text-align: center;
+      padding: 20px;
+      background-color: black;
+      color: white;
 }
