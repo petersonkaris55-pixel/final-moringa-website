@@ -26,4 +26,6 @@ d.use localStorage
 3.Empty reservation field cannot be submitted
 4confirmatin message
 # Technologies Used  
-. HTML:for semantic page structure
+. HTML:for semantic page structure.
+. css:for glassmorphism (backdrop-filter),Flexbox,and Grid layouts.
+.script.js
