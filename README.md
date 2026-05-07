@@ -27,8 +27,11 @@ d.use localStorage
 4confirmatin message
 # Technologies Used  
 . HTML:for semantic page structure.
+
 . css:for glassmorphism (backdrop-filter),Flexbox,and Grid layouts.
+
 . script.js:to handle reservation logic 
+
 . Git/GitHub;for version control and project deployment.
 
 
