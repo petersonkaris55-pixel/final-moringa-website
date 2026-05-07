@@ -34,4 +34,4 @@ d.use localStorage
 
 
 License
-copyright (c) 2026
+copyright  © 2026
